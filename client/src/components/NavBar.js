@@ -35,13 +35,11 @@ state = {
       <div id ="wholeNavBar">
 
         <div id="header">
-       
-
-
+ 
 
     <a
      style={{margin: "10px"}}
-      href ="#"
+      href ="#" className="navbar"
           onClick={() => this.setState({ pageView:   <About data={this.state.data}/>  })}
       >About us - </a>
 
