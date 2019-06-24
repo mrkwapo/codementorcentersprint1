@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Logo from './img/cmcphotoicon.png';
 import Credits from './components/Credits';
 import Review from './components/Review';
+import Photo from './img/cmcphoto.jpg';
 
 class App extends Component {
 
@@ -51,8 +52,10 @@ render(){
 
 
 <NavBar />
-
-
+{/* 
+<div>
+  <img style={{align:"center"}} src={Photo}/>
+</div> */}
 
 
 
